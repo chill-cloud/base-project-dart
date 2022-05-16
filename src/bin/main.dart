@@ -9,5 +9,5 @@ Future<void> main(List<String> args) async {
     const <Interceptor>[],
     CodecRegistry(codecs: const [GzipCodec(), IdentityCodec()]),
   );
-  await server.serve(port: 9756);
+  await server.serve(port: 80);
 }
